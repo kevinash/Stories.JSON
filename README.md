@@ -8,9 +8,9 @@ Stories.JSON is an open source format created by [Kevin Ashley Labs](http://kevi
 
 If you are interested in a Python library for automating Stories.JSON and the composition engine, please contact [Kevin Ashley](http://kevinashley.com).
 
-## Applications
+## Showcases
 
-Stories.JSON is used in the following projects
+Stories.JSON is used in the following projects:
 
 ![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com) - AI Training and Learning Platform
 
@@ -18,7 +18,7 @@ Stories.JSON is used in the following projects
 
 ![AI Kiosk](/images/ai-kiosk.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
 
-Books [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) - Uses Stories.JSON for code examples
+[Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) book - Uses Stories.JSON for code examples
 
 ![Interview with Artificial Intelligence](/images/book-cover-200.png)
 
