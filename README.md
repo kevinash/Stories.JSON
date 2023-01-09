@@ -6,7 +6,7 @@ Stories.JSON is an open source format created by [Kevin Ashley Labs](http://kevi
 
 [Example Stories.JSON](/src/examples/stories.json)
 
-If you are interested in a Python library for automating Stories.JSON and the composition engine, please contact [Kevin Ashley](http://kevinashley.com).
+If you are interested in a Python library for automating Stories.JSON and the composition engine, please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/).
 
 ## Showcases
 
