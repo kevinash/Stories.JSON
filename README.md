@@ -1,5 +1,7 @@
 # Stories.JSON
 
+![Stories.JSON](/images/stories_json_logo.png)
+
 Stories.JSON is an open source format created by [Kevin Ashley Labs](http://kevinashley.com) for composing large language models such as GPT, ChatGPT, Codex, Stable Diffusion etc. This format is used by [Ask AI](https://askainow.com), [Livebook AI](https://livebookai.com) and many other applications for prompt composition.
 
 [Example Stories.JSON](/src/examples/stories.json)
