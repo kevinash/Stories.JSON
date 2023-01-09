@@ -12,9 +12,12 @@ If you are interested in a Python library for automating Stories.JSON and the co
 
 Stories.JSON is used in the following projects
 
-- ![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com)
-- ![Livebook AI](/images/livebook-40.png) - [Livebook AI](https://livebookai.com)
-- ![AI Kiosk](/images/logo-long-color-40.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
+- ![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com) - AI Training and Learning Platform
+- ![Livebook AI](/images/livebook-40.png) - [Livebook AI](https://livebookai.com/category) - AI Stories Platform
+- ![AI Kiosk](/images/ai-kiosk.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
+- Books [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) - Uses Stories.JSON for code examples
+
+![Interview with Artificial Intelligence](/images/book-cover-200.png)
 
 ## Guide to Stories.JSON
 
@@ -70,8 +73,6 @@ Aristotle's three acts structure can be easily modeled with Stories.JSON, as wel
 You can create templates that generate text, images, code and richly formatted text output.
 
 For example, problems created for my book [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) are defined in Stories.JSON [interview-problem](/src/examples/stories.json) template.
-
-![Interview with Artificial Intelligence](/images/book-cover-200.png)
 
 ## Variables
 
