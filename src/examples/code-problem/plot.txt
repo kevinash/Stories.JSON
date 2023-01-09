@@ -1,0 +1,3 @@
+Create a $difficulty difficulty problem for a technical interview in "$category" category that tests candidate's ability to write a code solution. Provide an example input and output for this problem.
+
+Problem:

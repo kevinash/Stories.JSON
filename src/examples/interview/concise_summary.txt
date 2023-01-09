@@ -1,0 +1,5 @@
+Write a concise summary for the following interview question titled "$title" in "$category" category:
+
+Question: $plot
+
+Concise summary:

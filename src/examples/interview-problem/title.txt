@@ -1,0 +1,7 @@
+Write a concise title for the following problem in "$category" category:
+
+'''
+$plot
+'''
+
+Concise title:

@@ -1,0 +1,8 @@
+Write an introduction for the article titled "$title" in "$category" category summarized below. The introduction has to be long enough, at least several paragraphs, and compelling to grab readers' attention and pull them in.
+
+Summary:
+'''
+$concise_summary
+'''
+
+Long introduction:

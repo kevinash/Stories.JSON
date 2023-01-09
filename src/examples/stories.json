@@ -1,0 +1,256 @@
+{
+    "sql-problem" : [
+        {"args": {
+            "template_name": "sql-problem",
+            "display_name": "Databases",
+            "$category": "$category",
+            "category_filter": "(Databases)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 0,
+            "$language": "SQL",
+            "$difficulty": "Medium",
+            "$start_comment_block": "/*",
+            "$end_comment_block": "*/",
+            "post_process":"insert_challenge"
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$difficulty"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"content": "$plot", "format":"paragraph"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"}
+    ],
+    "code-problem" : [
+        {"args": {
+            "template_name": "code-problem",
+            "display_name": "Coding Problem",
+            "$category": "$category",
+            "category_filter": "(Coding Problem)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 0,
+            "$language_choice": ["Python", "JavaScript"],
+            "$language": "Python",
+            "$difficulty": "Medium",
+            "$start_comment_block": "'''",
+            "$end_comment_block": "'''",
+            "post_process":"insert_challenge"
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$difficulty"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"content": "$plot", "format":"paragraph"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"}
+    ],
+    "interview-problem" : [
+        {"args": {
+            "template_name": "interview-problem",
+            "display_name": "Interview Problem",
+            "$category": "$category",
+            "category_filter": "(Interview Problem)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 0,
+            "$difficulty": "Medium",
+            "post_process":"insert_challenge"
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$difficulty"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"content": "$plot", "format":"paragraph"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"}
+    ],
+    "theorem" : [
+        {"args": {
+            "template_name": "theorem",
+            "display_name": "Theorem",
+            "$category": "$category",
+            "category_filter": "(Theorem)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 0,
+            "$language": "Text",
+            "$difficulty": "Hard",
+            "$start_comment_block": "'''",
+            "$end_comment_block": "'''",
+            "post_process":"insert_challenge"
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$difficulty"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"content": "$plot", "format":"paragraph"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"}
+    ],
+    "live" : [
+        {"args": {
+            "template_name": "live",
+            "display_name": "Short Story",
+            "$category": "$category",
+            "category_filter": "^((?!Poetry|Recipes|Popular Science|Interesting Facts|Campaigns|Business and Professional).)*$",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.5,
+            "min_length_blocks": 6
+            }
+        },
+        {"prompt": "plot", "args": ["$category"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"prompt": "concise_summary", "args": ["$category", "$plot", "$title"], "run":"once"},
+        {"prompt": "beginning", "args": ["$title", "$category", "$plot"], "format":"text", "run":"once"},
+        {"prompt": "summary", "args": ["$category", "$title", "$summary:$prev", "$prev.last_lines"]},
+        {"set": "$prev", "value": "$beginning"},
+        {"section": "introduction", "repeat":3, "steps":
+            [
+                { "prompt": "continue_by_summary", "args": ["$title", "$category", "$plot:$concise_summary", "$summary", "$prev.last_lines"], "format":"text"},
+                { "prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+                { "set": "$prev", "value": "$continue_by_summary"}
+            ]
+        },
+        {"prompt": "rising_action", "args": ["$title", "$category", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+        {"prompt": "summary", "args": ["$category", "$title", "$summary", "$plot:$concise_summary", "$prev.last_lines"]},
+        {"set": "$prev", "value": "$rising_action"},
+        {"section": "rising_action", "repeat":3, "steps":
+            [
+                { "prompt": "continue_by_summary", "args": ["$title", "$category", "$summary", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+                { "prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+                { "set": "$prev", "value": "$continue_by_summary"}
+            ]
+        },
+        {"prompt": "climax", "args": ["$title", "$category", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+        {"prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+        {"set": "$prev", "value": "$climax"},
+        {"section": "climax", "repeat":3, "steps":
+            [
+                { "prompt": "continue_by_summary", "args": ["$title", "$category", "$summary", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+                { "prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+                { "set": "$prev", "value": "$continue_by_summary"}
+            ]
+        },
+        {"prompt": "falling_action", "args": ["$title", "$category", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+        {"prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+        {"set": "$prev", "value": "$falling_action"},
+        {"section": "climax", "repeat":3, "steps":
+            [
+                { "prompt": "continue_by_summary", "args": ["$title", "$category", "$summary", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+                { "prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+                { "set": "$prev", "value": "$continue_by_summary"}
+            ]
+        },
+        {"prompt": "resolution", "args": ["$title", "$category", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+        {"prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+        {"set": "$prev", "value": "$resolution"},
+        {"section": "resolution", "repeat":3, "steps":
+            [
+                { "prompt": "continue_by_summary", "args": ["$title", "$category", "$summary", "$plot:$concise_summary", "$prev.last_lines"], "format":"text"},
+                { "prompt": "summary", "args": ["$category", "$title", "$summary", "$prev.last_lines"]},
+                { "set": "$prev", "value": "$continue_by_summary"}
+            ]
+        },
+        {"prompt": "ending", "args": ["$title", "$category", "$plot"], "format":"text"}
+        ],
+    "poetry" : [
+        {"args": {
+            "template_name": "poetry",
+            "display_name": "Poetry",
+            "$category": "$category",
+            "category_filter": "(Poetry)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 7
+            }
+        },
+        {"prompt": "plot", "args": ["$category"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"content": "***", "format":"delimiter"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once", "format":"paragraph"},
+        {"section": "poems", "repeat":10, "steps":
+            [
+                { "prompt": "theme", "args": ["$category"]},
+                { "prompt": "poem_title", "args": ["$category", "$theme"], "format":"h:3", "type": "title"},
+                { "prompt": "poem", "args": ["$category", "$poem_title", "$theme"], "format":"paragraph"},
+                { "content": "***", "format":"delimiter"}
+            ]
+        }
+    ],
+    "recipes" : [
+        {"args": {
+            "template_name": "recipes",
+            "display_name": "Recipes",
+            "$category": "$category",
+            "category_filter": "(Recipes)",
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 7
+            }
+        },
+        {"prompt": "plot", "args": ["$category"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once", "format":"paragraph"},
+        {"section": "recipes", "repeat":6, "steps":
+            [
+                { "prompt": "recipe_title", "args": ["$category"], "format":"h:3", "type": "title"},
+                { "prompt": "recipe", "args": ["$category", "$recipe_title"], "format":"recipe"},
+                { "content": "Nutrition Facts:", "format":"h:5"},
+                { "prompt": "nutrition", "args": ["$category", "$recipe_title", "$recipe"], "format":"paragraph"},
+                { "content": "***", "format":"delimiter"}
+            ]
+        }
+    ],
+    "interesting-facts" : [
+        {"args": {
+            "template_name": "interesting-facts",
+            "display_name": "Interesting Facts",
+            "$category": "$category",
+            "category_filter": "(Interesting Facts|Popular Science)",
+            "$number": 6,
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 7
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$number"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"},
+        {"prompt": "introduction", "args": ["$category", "$title", "$concise_summary"], "run":"once", "format":"paragraph" },
+        {"section": "facts", "repeat":"$number", "steps":
+            [
+                { "prompt": "fact_title", "args": ["$plot", "$index"], "format":"h:3", "type": "title"},
+                { "prompt": "fact", "args": ["$category", "$fact_title", "$plot", "$index"], "format":"paragraph"}
+            ]
+        },
+        {"prompt": "conclusion", "args": ["$category", "$title", "$plot"], "run":"once", "format":"paragraph" }
+    ],
+    "professional-article" : [
+        {"args": {
+            "template_name": "professional-article",
+            "display_name": "Business and Professional",
+            "$category": "$category",
+            "category_filter": "(Business and Professional)",
+            "$number": 6,
+            "usage_chars": 0,
+            "parts" : [],
+            "similarity": 0.0,
+            "min_length_blocks": 7
+            }
+        },
+        {"prompt": "plot", "args": ["$category", "$number"], "run":"once"},
+        {"prompt": "title", "args": ["$category", "$plot"], "format":"h:1", "run":"once", "limit":80, "type": "title"},
+        {"prompt": "concise_summary", "args": ["$category", "$title", "$plot"], "run":"once"},
+        {"prompt": "introduction", "args": ["$category", "$title", "$concise_summary"], "run":"once", "format":"paragraph" },
+        {"section": "facts", "repeat":"$number", "steps":
+            [
+                { "prompt": "fact_title", "args": ["$plot", "$index"], "format":"h:3", "type": "title"},
+                { "prompt": "fact", "args": ["$category", "$fact_title", "$plot", "$index"], "format":"paragraph"}
+            ]
+        },
+        {"prompt": "conclusion", "args": ["$category", "$title", "$plot"], "run":"once", "format":"paragraph" }
+    ]
+
+}

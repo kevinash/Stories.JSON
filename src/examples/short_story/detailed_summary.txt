@@ -1,0 +1,10 @@
+Write a detailed summary of the following story excerpt. The story is titled "$title" in "$category" category, which follows the plot below.
+
+Plot: $plot
+
+Excerpt:
+'''
+$chunk
+'''
+
+Detailed summary:

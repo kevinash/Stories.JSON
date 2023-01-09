@@ -1,0 +1,8 @@
+Read the technical question below then write a concise title for this question for a technical post in "$category" category.
+
+Technical question:
+'''
+$plot
+'''
+
+Concise title:

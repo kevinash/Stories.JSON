@@ -1,0 +1,13 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Begin a new scene with an engaging and punching beginning where the hero faces off against her antagonist one last time. Will the hero prevail? For the context, use the summary of the previous scene about the status quo or the ordinary world and the last few lines of the last scene. The story is titled "$title" in "$category" category. Use a mix of dialogs and the narrative.
+
+Summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+New scene:

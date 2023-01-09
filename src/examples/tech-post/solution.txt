@@ -1,0 +1,18 @@
+For the customer technical question titled "$title" in "$category" category, write a solution:
+
+Technical question:
+'''
+$plot
+'''
+
+Technologies used:
+'''
+$technology
+'''
+
+Problem the customer is solving:
+'''
+$problem
+'''
+
+Solution:

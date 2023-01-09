@@ -1,0 +1,13 @@
+Read this technical question titled "$title" from the customer in "$category" then answer the following question: does the customer need any code to add to the solution?
+
+Technical question: 
+'''
+$plot
+'''
+
+Solution: 
+'''
+$solution
+'''
+
+Answer:

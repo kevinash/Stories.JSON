@@ -1,0 +1,6 @@
+For the problem below, describe a few approaches to solving this problem, explain complexity for each approach.
+
+Problem:
+$plot
+
+Approaches:

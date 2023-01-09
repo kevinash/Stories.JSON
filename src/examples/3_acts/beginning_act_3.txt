@@ -1,0 +1,8 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Based on the plot for the second act of the original story titled "$title" in "$category" category, write a captivating and punchy beginning of the last act, where the hero must pull everything together and choose between decisive action and failure. Use a mix of dialogs and the narrative.
+
+Plot:
+'''
+$plot
+'''
+
+Beginning:

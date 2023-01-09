@@ -1,0 +1,18 @@
+Continue unfolding the scene for the story titled "$title" from "$category" category, based on the plot, the summary and the last few lines for context. Avoid summarization in the narrative: to keep the story engaging and alive, use three-dialogue beats rule, with three sentences of dialogue followed by the action beat. 
+
+Plot:
+'''
+$plot
+'''
+
+Summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+Long continuation of the story:

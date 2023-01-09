@@ -1,0 +1,13 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Begin a new scene where the hero decides to tackle the challenge head-on and 'crosses the threshold'. The story now is truly moving. For the context, use the summary of the previous scene about the inciting incident event and the last few lines of the last scene. The story is titled "$title" in "$category" category. Blend direct and indirect dialogs with the narrative to keep readers engaged.
+
+Summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+New scene:

@@ -1,0 +1,8 @@
+$start_comment_block
+
+In $language write the optimal solution for the problem below. Add a comment explaining the solution and why it is optimal.
+
+Problem:
+$plot
+
+$end_comment_block

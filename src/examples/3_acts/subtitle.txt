@@ -1,0 +1,11 @@
+Create the best interesting, short and catchy title for the scene of the story in "$category" category based on the scene plot below. Avoid using quotes in the title, avoid using previous scene titles below. Limit the length of the title. 
+
+Plot:
+'''
+$plot
+'''
+
+Previous titles:
+$prev
+
+Title:

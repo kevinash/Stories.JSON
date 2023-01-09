@@ -1,0 +1,6 @@
+For the problem below, write an example of input and output.
+
+Problem:
+$plot
+
+Example:

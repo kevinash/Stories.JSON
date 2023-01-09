@@ -1,0 +1,3 @@
+Write a detailed problem statement from "$category" category, the answer is expected to be a mathematical proof. If applicable, provide a sample input and output for this problem, but do not write a proof.
+
+Problem:

@@ -1,0 +1,3 @@
+Write a technical question targeting developer audience for a technical post in "$category" category.
+
+Technical question:

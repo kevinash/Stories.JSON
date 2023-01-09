@@ -1,0 +1,13 @@
+All loose ends are tied up: write the long ending of the story titled "$title" in "$category" category, based on the plot of the story and the summary of the story so far. Build the ending with description and sensory images, or create metaphors for characters and their goals. Select a vivid image to end the story. 
+
+Plot:
+'''
+$plot
+'''
+
+Summary:
+'''
+$summary
+'''
+
+Long ending of the story:

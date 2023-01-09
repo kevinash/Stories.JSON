@@ -1,0 +1,8 @@
+{
+    "engine": "text-davinci-003",
+    "temperature": 0.7,
+    "max_tokens": 256,
+    "top_p": 1.0,
+    "frequency_penalty": 0.75,
+    "presence_penalty": 0.75
+}

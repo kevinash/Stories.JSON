@@ -1,0 +1,13 @@
+Continue writing the technical article titled "$title" in "$category" category from the summary of the previous part and the last few lines.
+
+Summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+Long continuation of the story:

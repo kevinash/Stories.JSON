@@ -1,0 +1,8 @@
+Write a subplot for the beginning of act one of the original story titled "$title" in "$category" category based on the story plot. This subplot includes the status quo, where the ordinary world is established.
+
+Plot:
+'''
+$plot
+'''
+
+Subplot:

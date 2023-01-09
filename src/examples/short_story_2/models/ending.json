@@ -1,0 +1,9 @@
+{
+    "engine": "text-davinci-003",
+    "temperature": 0.7,
+    "max_tokens": 650,
+    "top_p": 1.0,
+    "frequency_penalty": 0.75,
+    "presence_penalty": 0.75,
+    "stop_sequence": ["Plot:", "Summary:", "Long ending of the story:"] 
+}

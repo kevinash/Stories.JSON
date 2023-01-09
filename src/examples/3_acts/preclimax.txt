@@ -1,0 +1,13 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Based on the plot of an original short story titled "$title" in "$category" category and the last few lines of the previous scene below, write the next scene about how the hero must pull everything together and choose between decisive action and failure. Use a mix of dialogs and the narrative.
+
+Plot:
+'''
+$plot
+'''
+
+Last few lines of the previous scene:
+'''
+$prev
+'''
+
+Next scene:

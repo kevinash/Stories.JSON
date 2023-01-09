@@ -1,0 +1,8 @@
+Write a concise summary for the article titled "$title" in "$category" category, covering these interesting facts.
+
+Interesting facts:
+'''
+$plot
+'''
+
+Concise summary:

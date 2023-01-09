@@ -1,0 +1,8 @@
+Write a conclusion for the article titled "$title" in "$category" category that covers interesting facts below. The conclusion has to be long enough, at least several paragraphs, and compelling to grab readers' attention, pull them in and provide some action for them to take at the end.
+
+Interesting facts:
+'''
+$plot
+'''
+
+Long conclusion:

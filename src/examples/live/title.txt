@@ -1,0 +1,8 @@
+Create the best interesting, short and catchy title for the story in "$category" category based on the plot below. Avoid using quotes in the title, limit the length, make the title genre appropriate.
+
+Plot:
+'''
+$plot
+'''
+
+Title:

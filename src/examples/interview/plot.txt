@@ -1,0 +1,3 @@
+Write a $difficulty difficulty interview question in $category category.
+
+Question:

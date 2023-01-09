@@ -1,0 +1,5 @@
+Based on the plot of an original short story titled "$title" in "$category" category, write the opening of the story, getting the reader right into the unfolding story and using a mix of the narrative and dialogs. Start as close to the end of the plot as possible. Catapult the reader headlong into the action from page one.
+
+Plot: $plot
+
+Opening:

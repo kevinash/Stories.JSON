@@ -1,0 +1,8 @@
+Write a concise summary for a collection of poems titled "$title" in "$category" category and the theme below.
+
+Theme:
+'''
+$plot
+'''
+
+Concise summary:

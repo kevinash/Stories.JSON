@@ -1,0 +1,5 @@
+Write a concise summary of the story titled "$title" in "$category" category, based on this plot.
+
+Plot: $plot
+
+Concise summary:

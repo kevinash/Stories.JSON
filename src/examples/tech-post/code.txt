@@ -1,0 +1,13 @@
+Read the technical question below for a technical post titled "$title" in "$category" category, and the proposed solution, then write a code sample.
+
+Technical question: 
+'''
+$plot
+'''
+
+Proposed solution: 
+'''
+$solution
+'''
+
+Code sample:

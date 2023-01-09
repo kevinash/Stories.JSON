@@ -1,0 +1,13 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Based on the plot of an original short story titled "$title" in "$category" category and a few lines from the previous scene below, write the next scene, where the story's true stakes become clear; our hero grows familiar with the "new world" and has the first encounters with some enemies and allies. Use a mix of dialogs and the narrative.
+
+Plot:
+'''
+$plot
+'''
+
+Last few lines of the previous scene:
+'''
+$prev
+'''
+
+Next scene:

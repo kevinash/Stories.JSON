@@ -1,0 +1,8 @@
+Write nutrition facts for "$recipe_title" recipe in "$category" category.
+
+Recipe:
+'''
+$recipe
+'''
+
+Nutrition Facts:

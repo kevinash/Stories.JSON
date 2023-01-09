@@ -1,0 +1,8 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Based on the plot for the first act of the original story titled "$title" in "$category" category, write a captivating and punchy beginning of the second act, with rising action of the story where the story's true stakes become clear, the hero grows familiar with the 'new world' and has first encounters with some enemies and allies. Use a mix of dialogs and the narrative.
+
+Plot:
+'''
+$plot
+'''
+
+Beginning:

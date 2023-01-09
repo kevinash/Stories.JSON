@@ -1,0 +1,3 @@
+For series of posts in "$category" category, think of a creative random theme, then write $number interesting facts based on that theme.
+
+Interesting facts:

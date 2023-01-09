@@ -1,0 +1,5 @@
+Write a concise title for the following interview question in "$category" category:
+
+Question: $plot
+
+Concise title:

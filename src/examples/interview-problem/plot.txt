@@ -1,0 +1,3 @@
+Create a $difficulty difficulty problem for an interview in "$category" category without providing a solution.
+
+Problem:

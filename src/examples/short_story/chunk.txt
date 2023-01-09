@@ -1,0 +1,15 @@
+Based on the plot of the story titled "$title" in "$category" category, the summary of the story so far, and the last few lines of the story, write a long continuation of the story, using a mix of the narrative and dialogs, with a quickly developing storyline, to keep readers interested.
+
+Plot: $plot
+
+Summary of the story so far:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$chunk
+'''
+
+Write a long continuation of the above story:

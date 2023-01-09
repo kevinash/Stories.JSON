@@ -1,0 +1,13 @@
+For the scene of the story titled "$title" in "$category" category, update the summary (keep it short, to about a paragraph) based on the previous summary and the last few lines of the scene.
+
+Previous summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+Summary:

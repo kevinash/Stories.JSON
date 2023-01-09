@@ -1,0 +1,10 @@
+Add one title for the next scene to the table of contents of the story titled "$title" in "$category" category. The next scene is based on the following plot:
+
+Plot:
+'''
+$plot
+'''
+
+Contents:
+$title
+$prev

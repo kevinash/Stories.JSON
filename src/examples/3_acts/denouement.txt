@@ -1,0 +1,13 @@
+All loose ends are tied up: write the ending of the story titled "$title" in "$category" category, based on the plot of the story and the summary of the story so far.
+
+Plot:
+'''
+$plot
+'''
+
+Summary:
+'''
+$summary
+'''
+
+Ending:

@@ -1,0 +1,8 @@
+Write a title for a book of recipes in "$category" category and the theme below.
+
+Theme:
+'''
+$plot
+'''
+
+Title:

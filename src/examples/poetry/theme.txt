@@ -1,0 +1,3 @@
+Write a short few words theme for a poem in "$category" category. Sample themes: love, nature, beauty, stars, dreams etc.
+
+Short theme:

@@ -1,0 +1,8 @@
+Based on the plot of the original story titled "$title" in "$category" category, write a captivating and punchy beginning, introducing the characters, their names and the setting of the story. Use the three-dialogue beats rule, with three sentences of dialogue followed by the action beat to keep readers engaged. 
+
+Plot:
+'''
+$plot
+'''
+
+Beginning:

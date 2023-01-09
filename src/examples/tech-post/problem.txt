@@ -1,0 +1,8 @@
+Read this technical question titled "$title" from the customer in "$category" then answer the following questions: what is the main problem the customer is trying to solve?
+
+Technical question: 
+'''
+$plot
+'''
+
+Answer:

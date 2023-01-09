@@ -1,0 +1,5 @@
+Select a theme for a book of poems in "$category" category. 
+
+Sample themes: love, nature, beauty, child's memories, happiness, peace, dreams
+
+Theme:

@@ -1,0 +1,8 @@
+Write a poem in "$category" category, titled "$poem_title" and conveying the theme below. Do not include the title in the result.
+
+Theme:
+'''
+$theme
+'''
+
+Poem:

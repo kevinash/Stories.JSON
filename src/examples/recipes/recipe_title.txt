@@ -1,0 +1,3 @@
+Write a title for a recipe in "$category" category.
+
+Title:

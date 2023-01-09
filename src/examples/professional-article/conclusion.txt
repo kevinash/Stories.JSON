@@ -1,0 +1,8 @@
+Write a conclusion for the article titled "$title" in "$category" category that covers topics below. The conclusion has to be long enough, at least several paragraphs, explain how this article solves problems stated in topics below, and compelling to grab readers' attention, pull them in and provide some action for them to take at the end.
+
+Topics:
+'''
+$plot
+'''
+
+Long conclusion:

@@ -1,0 +1,8 @@
+Write a concise summary for the technical post titled "$title" in "$category" category and the introduction below.
+
+Introduction:
+'''
+$plot
+'''
+
+Concise summary:

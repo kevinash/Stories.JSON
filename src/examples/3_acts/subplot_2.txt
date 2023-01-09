@@ -1,0 +1,13 @@
+Write a subplot for the second act of the original story titled "$title" in "$category", based on the overall plot and the summary of the story so far. This subplot includes the following scenes: the rising action where the story's true stakes become clear, our hero grows familiar with the 'new world' and has first encounters with  enemies and allies; the midpoint scene with a point of no return, from which the hero can no longer go back to the status quo; the final scene of act two, where in the wake of the disorienting midpoint, the hero is tested — and fails, the ability to succeed is now in doubt.
+
+Plot:
+'''
+$plot
+'''
+
+Summary:
+'''
+$summary
+'''
+
+Subplot:

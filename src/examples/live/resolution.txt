@@ -1,0 +1,13 @@
+Based on the plot of an original story titled "$title" in "$category" category and a few lines from the previous scene below, write the resolution scene, building towards conclusion. The conflict has been resolved and the character has changed. There can be three different outcomes: the hero gets what he wants; the hero doesn’t get what he wants; or, the hero doesn’t get what he wants, but realizes that he has something more important. Use three-dialogue beats rule, with three sentences of dialogue or thoughts followed by the action beat.
+
+Plot:
+'''
+$plot
+'''
+
+Last few lines of the previous scene:
+'''
+$prev
+'''
+
+Next scene:

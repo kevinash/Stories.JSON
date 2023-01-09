@@ -1,0 +1,13 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Begin the midpoint scene with a point of no return, from which the hero can no longer go back to the status quo. For the context, use the summary of the previous scene about the rising action, when story stakes become clear, and the last few lines of the last scene. The story is titled "$title" in "$category" category. Use a mix of dialogs and the narrative.
+
+Summary:
+'''
+$summary
+'''
+
+Last few lines:
+'''
+$prev
+'''
+
+New scene:

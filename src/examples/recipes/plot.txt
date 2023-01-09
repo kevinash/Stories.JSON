@@ -1,0 +1,3 @@
+Write a theme for a book of recipes in "$category" category.
+
+Theme:

@@ -1,0 +1,6 @@
+Write and explain a solution for the problem below. Add a comment explaining the solution and why it is optimal.
+
+Problem:
+$plot
+
+Solution:

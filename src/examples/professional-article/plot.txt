@@ -1,0 +1,3 @@
+For an article in "$category" category, think of a subject, then write $number outline topics, including a topic for a problem statement and a solution.
+
+Topics:

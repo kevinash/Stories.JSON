@@ -1,0 +1,7 @@
+Write a concise summary for the following technical problem titled "$title" in "$category" category:
+
+'''
+$plot
+'''
+
+Concise summary:

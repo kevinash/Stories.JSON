@@ -1,0 +1,5 @@
+Create the best short and catchy title for the story in "$category" category based on this plot.
+
+Plot: $plot
+
+Title:

@@ -1,0 +1,5 @@
+For the problem below, describe the best approach to solving this problem.
+
+Question: $plot
+
+Solution:

@@ -1,0 +1,8 @@
+I'm a bestselling fiction writer, with engaging and captivating writing style. Based on the plot of the original story titled "$title" in "$category" category, write a captivating and punchy beginning. Set the status quo of the story, where the hero is living in some kind of a 'normal life' but has a greater desire or goal. Use a mix of dialogs and the narrative.
+
+Plot:
+'''
+$plot
+'''
+
+Beginning:

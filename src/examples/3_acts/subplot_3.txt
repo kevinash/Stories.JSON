@@ -1,0 +1,13 @@
+Write a subplot for the last act of the original story titled "$title" in "$category", based on the overall plot and the summary of the story so far. This subplot includes the following scenes: pre climax - where the hero must pull everything together and choose between decisive action and failure, climax - where the hero faces off against her antagonist one last time, will the hero prevail? denouement - where all loose ends are tied up. The reader discovers the consequences of the climax. A new status quo is established.
+
+Plot:
+'''
+$plot
+'''
+
+Summary:
+'''
+$summary
+'''
+
+Subplot:

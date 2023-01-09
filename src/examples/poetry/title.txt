@@ -1,0 +1,8 @@
+Create the best short and catchy title for a book of poems in "$category" category and the theme below. Do not use quotes or numbers in the title, limit the length to 3-4 words.
+
+Theme:
+'''
+$plot
+'''
+
+Title:

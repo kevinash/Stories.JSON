@@ -1,0 +1,8 @@
+Write a concise title for an article in "$category" category that covers the following topics.
+
+Topics:
+'''
+$plot
+'''
+
+Concise title:

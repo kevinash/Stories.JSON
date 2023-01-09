@@ -1,0 +1,8 @@
+Write a post titled "$fact_title" in "$category" category. The post must be long and compelling to grab readers' attention and pull them in. The post should focus on the interesting fact #$index listed below. 
+
+Interesting Facts:
+'''
+$plot
+'''
+
+Long post for the interesting fact #$index: 

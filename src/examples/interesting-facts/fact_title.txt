@@ -1,0 +1,8 @@
+Create a concise title for a post that explains the interesting fact number $index below. Do not use quotes (") or numbers in or around the title, limit the length to 3-4 words. Return only one unquoted title. Use a unique title for each fact.
+
+Interesting facts:
+'''
+$plot
+'''
+
+Concise title for fact number $index:
