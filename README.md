@@ -12,10 +12,13 @@ If you are interested in a Python library for automating Stories.JSON and the co
 
 Stories.JSON is used in the following projects
 
-- ![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com) - AI Training and Learning Platform
-- ![Livebook AI](/images/livebook-40.png) - [Livebook AI](https://livebookai.com/category) - AI Stories Platform
-- ![AI Kiosk](/images/ai-kiosk.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
-- Books [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) - Uses Stories.JSON for code examples
+![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com) - AI Training and Learning Platform
+
+![Livebook AI](/images/livebook-40.png) - [Livebook AI](https://livebookai.com/category) - AI Stories Platform
+
+![AI Kiosk](/images/ai-kiosk.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
+
+Books [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) - Uses Stories.JSON for code examples
 
 ![Interview with Artificial Intelligence](/images/book-cover-200.png)
 
