@@ -67,7 +67,7 @@ Let's look at a template for a [professional article](/src/examples/stories.json
 As you can see, the template contains several sections.
 Stories.JSON is dictionary, containing multiple templates uniquely identified by name.
 
-## Getting started with Stories.JSON structures 
+## Getting started with Stories.JSON 
 
 Aristotle's three acts structure can be easily modeled with Stories.JSON, as well as many other composition types. To write great story structures, you can start with pre-built templates in FormatGPT directory.
 
