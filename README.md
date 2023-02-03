@@ -297,9 +297,15 @@ Occasionally you need to set the variable inline, without a separate set step. T
 
 ## FormatGPT
 
-Python library and API:
+Python library and API for FormatGPT and Stories.JSON is available for commercial licensing. How to use:
+
+- As a standalone Python library - include in your code 
+- As a Docker container service - use as container (moderate development)
+- As a multi-tenant API service - get API key and access (minimum development)
+
+Please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/) for details of integration into your project.
 
 [![http://formatgpt.com](images/formatgpt-1.jpg)](http://FormatGPT.com)
 
-The Python libary and API for processing Stories.JSON is available for commercial licensing. Please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/)
+
 
