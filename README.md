@@ -2,11 +2,15 @@
 
 ![Stories.JSON](/images/stories_json_logo.png)
 
-Stories.JSON is an open source format created by [Kevin Ashley Labs](http://kevinashley.com) for composing large language models such as GPT, ChatGPT, Codex, Stable Diffusion etc. This format is used by [Ask AI](https://askainow.com), [Livebook AI](https://livebookai.com) and many other applications for prompt composition.
+Stories.JSON is an open source format for [FormatGPT](http://FormatGPT.com) for composing large language models such as GPT, ChatGPT, Codex, Stable Diffusion etc into beautiful documents. Created by [Kevin Ashley Labs](http://kevinashley.com) and used by [Ask AI](https://askainow.com), [Livebook AI](https://livebookai.com) and many other applications for prompt composition.
 
 [Example Stories.JSON](/src/examples/stories.json)
 
-If you are interested in a Python library for automating Stories.JSON and the composition engine, please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/).
+## FormatGPT API and Python Library
+
+The Python libary and API for processing Stories.JSON is available for commercial licensing. Please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/). 
+
+[![http://formatgpt.com](images/FormatGPT.png)](http://formatfpt.com)
 
 ## Showcases
 
@@ -21,6 +25,7 @@ Stories.JSON is used in the following projects:
 [Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) book - Uses Stories.JSON for code examples
 
 ![Interview with Artificial Intelligence](/images/book-cover-200.png)
+
 
 ## Guide to Stories.JSON
 
@@ -290,4 +295,8 @@ Occasionally you need to set the variable inline, without a separate set step. T
 ```
 
 
+## FormatGPT
 
+Python library and API:
+
+[![http://formatgpt.com](images/formatgpt-1.jpg)](http://FormatGPT.com,)
