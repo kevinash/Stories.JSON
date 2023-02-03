@@ -29,17 +29,10 @@ Stories.JSON is used in the following projects:
 
 ## Guide to Stories.JSON
 
-<<<<<<< HEAD
 Stories.JSON is a template format used by Stories.JSON composition engine (also known as FormatGPT).
 Stories.JSON templates are scripts for story structures, enabling Large Language Models (LLMs) to compose large texts, for example articles, books, novels etc.
 From Aristotle, with his concept of beginning, middle and end, or 3 acts structure, to various structures used today to write blogs, technical articles etc, Stories.JSON allows you to create flexible structures for your content and avoid large scale models limitations on size of produced text and limited inference "memory", which for GPT-3 was 2048 tokens.
 Without a composition engine like Stories.JSON FormatGPT, large scale models can only produce short text fragments, usually without a strong logical connection. FormatGPT also makes possible formatting and writing rich documents that include elements outside of NLP, such as images etc.
-=======
-Stories.JSON is a template format used by FormatGPT composition engine.
-Stories.JSON templates are scripts for story structures, enabling Large Language Models (LLMs) to compose large texts, for example articles, books, novels etc.
-From Aristotle, with his concept of beginning, middle and end, or 3 acts structure, to various structures used today to write blogs, technical articles etc, Stories.JSON allows you to create flexible structures for your content and avoid large scale models limitations on size of produced text and limited inference "memory", which for GPT-3 was 2048 tokens.
-Without a composition engine like Stories.JSON Autowriter, large scale models can only produce short text fragments, usually without a strong logical connection. FormatGPT also makes possible formatting and writing rich documents that include elements outside of NLP, such as images etc.
->>>>>>> c1527a8090401eafe18cf17c2c3a9571f61743ca
 
 Let's look at a template for a [professional article](/src/examples/stories.json) and [prompt definitions](src/examples/professional-article/). 
 
