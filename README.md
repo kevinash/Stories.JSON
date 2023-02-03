@@ -128,7 +128,7 @@ Long introduction:
 
 ## Template Arguments
 
-Each template contains an args section that includes input parameters. As the Livebook AI FormatGPT runs the template, it adds new values to the args section.
+Each template contains an args section that includes input parameters. As the FormatGPT engine runs the template, it adds new values to the args section.
 
 ```json
 
