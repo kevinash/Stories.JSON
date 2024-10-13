@@ -2,30 +2,21 @@
 
 ![Stories.JSON](/images/stories_json_logo.png)
 
-Stories.JSON is an open source format for [FormatGPT](http://FormatGPT.com) for composing large language models such as GPT, ChatGPT, Codex, Stable Diffusion etc into beautiful documents. Created by [Kevin Ashley Labs](http://kevinashley.com) and used by [Ask AI](https://askainow.com), [Livebook AI](https://livebookai.com) and many other applications for prompt composition.
+Stories.JSON is an open source format for composing, running and scheduling formatted output for large language models such as Gemini, xAI, GPT and others. Created by [Kevin Ashley Labs](http://kevinashley.com) and used by [AI Coaching](https://aicoaching.us), [Livebook AI](https://livebookai.com) and many other applications.
 
 [Example Stories.JSON](/src/examples/stories.json)
 
-## FormatGPT API and Python Library
+## Stories.JSON Python Library
 
 The Python libary and API for processing Stories.JSON is available for commercial licensing. Please contact [Kevin Ashley](https://www.linkedin.com/in/kashlik/). 
-
-[![http://formatgpt.com](images/FormatGPT.png)](http://formatgpt.com)
 
 ## Showcases
 
 Stories.JSON is used in the following projects:
 
-![AskAI](/images/logo-long-color-40.png) - [Ask AI](https://askainow.com) - AI Training and Learning Platform
-
 ![Livebook AI](/images/livebook-40.png) - [Livebook AI](https://livebookai.com/category) - AI Stories Platform
 
 ![AI Kiosk](/images/ai-kiosk.png) - [AI Kiosk](https://livebookai.com/post/kiosk) at the Computer History Museum
-
-[Interview with Artificial Intelligence](https://www.amazon.com/dp/B0BNV3MN53) book - Uses Stories.JSON for code examples
-
-![Interview with Artificial Intelligence](/images/book-cover-200.png)
-
 
 ## Guide to Stories.JSON
 
